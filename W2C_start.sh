@@ -93,9 +93,9 @@ if [ -n "$2" ]; then
 	public_key="$2"
 	
 	if [ -n "$3" ]; then
-    ipv6="$3"
-	else
-	ipv6="2606:4700:110:8db8:9c99:ddd0:61b1:9eae"
+		ipv6="$3"
+ 	else
+  		ipv6="null"
 	fi
 
 else
@@ -257,12 +257,17 @@ if [ ! -e "WireguardConfig.py" ]; then
   wget "${proxygithub}https://raw.githubusercontent.com/cmliu/Warp2Clash/main/WireguardConfig.py" -O "WireguardConfig.py"
   echo "WireguardConfig.py 文件已下载。"
 fi
-python3 WireguardConfig.py "$private_key" "$public_key" "$ipv6"
+
+if [ "$ipv6" = "null" ]; then
+    python3 WireguardConfig.py "$private_key" "$public_key"
+else
+    python3 WireguardConfig.py "$private_key" "$public_key" "$ipv6"
+fi
 
 file="clash_yaml.txt"
 content_to_insert_home="proxies:"
 content_to_insert_end="proxy-groups:
-  - name: 🇺🇸 美国线路.Warp+
+  - name: ⚖️ 负载均衡.Warp+
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
@@ -272,7 +277,11 @@ content_to_insert_end="proxy-groups:
 # 检测文件是否存在
 if [ -e "$file" ]; then
   line_count=$(wc -l < "$file")
-  processing_node_count=$((line_count / 13))
+  if [ "$ipv6" = "null" ]; then
+    processing_node_count=$((line_count / 12))
+  else
+    processing_node_count=$((line_count / 13))
+  fi
   echo "Warp节点数量：$processing_node_count"
   sed -i "1i $content_to_insert_home" "$file"
   echo "$content_to_insert_end" >> "$file"
