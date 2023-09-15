@@ -14,7 +14,7 @@ def process_csv(file_path):
 
         next(reader)
 
-        with open('clash_yaml.txt', 'w') as output_file:
+        with open('Warp2Clash.yaml', 'w') as output_file:
             for i, row in enumerate(reader, start=1):
                 ip_port = row[0].strip()
                 ip, port = ip_port.split(":")
@@ -27,7 +27,7 @@ def process_csv(file_path):
                 
                 output_file.write(new_line)
 
-    print("结果已保存到 clash_yaml.txt 文件")
+    print("结果已保存到 Warp2Clash.yaml 文件")
 
 file_path = 'result.csv'
 
