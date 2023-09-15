@@ -14,7 +14,7 @@ wget -N -P Warp2Clash https://raw.githubusercontent.com/cmliu/Warp2Clash/main/W2
 
 2. 运行脚本
 
-如果你有WARP账户许可证密钥，但是没有`PrivateKey`和`PublicKey`，可以运行一次以下命令后从`clash_yaml.txt`中提取记录`PrivateKey`和`PublicKey`的值
+如果你有WARP账户许可证密钥，但是没有`PrivateKey`和`PublicKey`，可以运行一次以下命令后从`Warp2Clash.yaml`中提取记录`PrivateKey`和`PublicKey`的值
 ``` bash
 sh W2C_start.sh [WARP账户许可证密钥]
 ```
@@ -31,8 +31,10 @@ sh W2C_start.sh [PrivateKey] [PublicKey] [IPv6]
 | PublicKey   | √ | 你的PublicKey |
 | IPv6  | × | 没有可不填 |
 
-3. 结果`clash_yaml.txt`
+3. 结果`Warp2Clash.yaml`
 ```
+...
+
 proxies:
 - name: Warp01
   type: wireguard
@@ -89,6 +91,7 @@ proxy-groups:
 
     - Warp64
 
+...
 ```
 
 
