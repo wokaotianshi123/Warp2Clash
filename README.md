@@ -96,4 +96,4 @@ proxy-groups:
 
 
  # 感谢
- [plsy1](https://github.com/xiaodao2026/speed)、[MisakaNo](https://github.com/Misaka-blog)等
+ [plsy1](https://github.com/xiaodao2026/speed)、[ViRb3](https://github.com/ViRb3/wgcf)、[MisakaNo](https://github.com/Misaka-blog)等
