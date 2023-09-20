@@ -46,7 +46,7 @@ WARP_key(){
 # 检查文件是否存在
 if [ ! -e "wgcf" ]; then
   # 如果文件不存在，使用wget下载它
-  wget "${proxygithub}https://raw.githubusercontent.com/cmliu/Warp2Clash/main/warp/wgcf" -O "wgcf"
+  wget "${proxygithub}https://github.com/ViRb3/wgcf/releases/download/v2.2.19/wgcf_2.2.19_linux_$(archAffix)" -O "wgcf"
   echo "wgcf 文件已下载。"
 fi
 
