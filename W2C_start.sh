@@ -1,6 +1,6 @@
 #!/bin/bash
 export LANG=zh_CN.UTF-8
-proxygithub="https://ghproxy.com/" #反代github加速地址，如果不需要可以将引号内容删除，如需修改请确保/结尾 例如"https://ghproxy.com/"
+proxygithub="https://github.ssrc.cf/" #反代github加速地址，如果不需要可以将引号内容删除，如需修改请确保/结尾 例如"https://ghproxy.com/"
 WarpNumberNodes=64 #预计需要节点数量
 ###############################################################以下脚本内容，勿动#######################################################################
 
