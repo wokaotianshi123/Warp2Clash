@@ -239,18 +239,12 @@ ulimit -n 4096 || true
 chmod +x warp && ./warp >/dev/null 2>&1
 
 # 检查文件是否存在
-if [ -e result.csv ]; then
-  # 获取文件的行数
-  line_count=$(wc -l < result.csv)
 
-	if [ "$line_count" -gt "$((WarpNumberNodes + 1))" ]; then
-	  # 使用 sed 删除行
-	  sed -i "$((WarpNumberNodes + 2)),\$d" result.csv
-	fi
-else
-  echo "测速结果不存在。"
-  exit 1
+if [ ! -e "result.csv" ]; then
+    echo "测速结果文件不存在,开始重新测速..."
+    ./warp --id "$ipv6" "$@" > result.csv 2>&1 | tee warp.log
 fi
+
 
 # 检查文件是否存在
 if [ ! -e "WireguardConfig.py" ]; then
