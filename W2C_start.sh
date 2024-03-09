@@ -252,10 +252,15 @@ else
   exit 1
 fi
 
-# 检查文件是否存在
-if [ ! -e "WireguardConfig.py" ]; then
+# 检查文件是否存在，更新wireguard
+if [  -e "WireguardConfig.py" ]; then
+  rm "WireguardConfig.py"
+  wget "${proxygithub}https://raw.githubusercontent.com/wokaotianshi123/Warp2Clash/main/WireguardConfig.py" -O "WireguardConfig.py"
+  echo "wireguard设置文件已更新。"
+  fi
+else
   # 如果文件不存在，使用wget下载它
-  wget "${proxygithub}https://raw.githubusercontent.com/cmliu/Warp2Clash/main/WireguardConfig.py" -O "WireguardConfig.py"
+  wget "${proxygithub}https://raw.githubusercontent.com/wokaotianshi123/Warp2Clash/main/WireguardConfig.py" -O "WireguardConfig.py"
   echo "WireguardConfig.py 文件已下载。"
 fi
 
