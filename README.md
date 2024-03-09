@@ -28,7 +28,7 @@ wget -N -P Warp2Clash https://gitjs.wokaotianshi123.cloudns.org/https://raw.gith
 
 
 
-
+# 以下是原版说明
 
 白嫖总得来说不好，请不要公开传播，项目热度太高就删库
 
