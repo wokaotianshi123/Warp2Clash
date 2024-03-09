@@ -10,7 +10,7 @@ termux-setup-storage
 ``` 
 3.复制运行下面代码
 ``` 
-wget -N -P Warp2Clash https://gitjs.wokaotianshi123.cloudns.org/https://raw.githubusercontent.com/wokaotianshi23/Warp2Clash/main/W2C_start.sh && cd Warp2Clash && chmod +x W2C_start.sh && bash W2C_start.sh iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk= bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo= 
+wget -N -P Warp2Clash https://gitjs.wokaotianshi123.cloudns.org/https://raw.githubusercontent.com/wokaotianshi23/Warp2Clash/main/W2C_start.sh && cd Warp2Clash && chmod +x W2C_start.sh && bash W2C_start.sh iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk= bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo= 2606:4700:110:8215:adc6:2102:b64:dc2/128
 ``` 
 4.在手机根目录查看 Warp2Clash.yaml是否存在,将Warp2Clash.yaml上传到个人空间得到外链链接。http...，复制下来。以后每次更新就直接更新Warp2Clash.yaml内容即可。
 5.下载安装最新版hiddify next，打开,右上角，剪贴板导入。hiddify next下载地址：https://github.com/hiddify/hiddify-next/releases/
