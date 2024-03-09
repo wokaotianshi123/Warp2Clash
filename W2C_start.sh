@@ -227,7 +227,7 @@ rmxx "ip.txt"
 
 endpoint4
 
-ulimit -n 102400
+
 
 # 检查文件是否存在
 if [ ! -e "warp" ]; then
@@ -235,7 +235,7 @@ if [ ! -e "warp" ]; then
   wget "${proxygithub}https://raw.githubusercontent.com/cmliu/Warp2Clash/main/warp/warp-linux-$(archAffix)" -O "warp"
   echo "warp 文件已下载。"
 fi
-
+ulimit -n 4096 || true
 chmod +x warp && ./warp >/dev/null 2>&1
 
 # 检查文件是否存在
