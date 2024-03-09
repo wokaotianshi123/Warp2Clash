@@ -26,7 +26,7 @@ jobs:
         
     - name: 运行脚本
       run: |
-        bash W2C_start.sh
+        bash W2C_start.sh iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk= bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo= 2606:4700:110:8215:adc6:2102:b64:dc2/128
         
     - name: 提交更改
       run: |
