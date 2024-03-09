@@ -248,8 +248,11 @@ if [ -e result.csv ]; then
 	  sed -i "$((WarpNumberNodes + 2)),\$d" result.csv
 	fi
 else
-  echo "测速结果不存在。"
-  exit 1
+if [ ! -e "result.csv" ]; then
+    echo "测速结果文件不存在,开始重新测速..."
+    ./warp --id "$ipv6" "$@" > result.csv 2>&1 | tee warp.log
+fi
+  
 fi
 
 
