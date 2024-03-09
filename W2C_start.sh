@@ -227,7 +227,7 @@ rmxx "ip.txt"
 
 endpoint4
 
-ulimit -n 4096 || true
+ulimit -n 102400
 
 # 检查文件是否存在
 if [ ! -e "warp" ]; then
@@ -248,13 +248,9 @@ if [ -e result.csv ]; then
 	  sed -i "$((WarpNumberNodes + 2)),\$d" result.csv
 	fi
 else
-if [ ! -e "result.csv" ]; then
-    echo "测速结果文件不存在,开始重新测速..."
-    ./warp --id "$ipv6" "$@" > result.csv 2>&1 | tee warp.log
+  echo "测速结果不存在。"
+  exit 1
 fi
-  
-fi
-
 
 # 检查文件是否存在
 if [ ! -e "WireguardConfig.py" ]; then
