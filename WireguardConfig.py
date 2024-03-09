@@ -27,7 +27,7 @@ def process_csv(file_path):
                 
                 output_file.write(new_line)
 
-    print("结果已保存到 Warp2Clash.yaml 文件")
+    print("结果已保存到 Warp2Clash.yaml 文件，已自动移动到手机根目录")
 
 file_path = 'result.csv'
 
