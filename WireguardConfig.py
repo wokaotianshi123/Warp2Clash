@@ -21,9 +21,9 @@ def process_csv(file_path):
                 warp_name = f"Warp{i:02d}"
                 
                 if len(sys.argv) >= 4:
-                    new_line = f"- name: {warp_name}\n  type: wireguard\n  server: {ip}\n  port: {port}\n  ip: 172.16.0.2\n  ipv6: {ipv6}\n  private-key: {private_key}\n  public-key: {public_key}\n  udp: true\n  mtu: 1280\n  remote-dns-resolve: true\n  dns: [ 1.1.1.1, 1.0.0.1 ]\n\n"
+                    new_line = f"- name: {warp_name}\n  type: wireguard\n  server: {ip}\n  port: {port}\n  ip: 172.16.0.2/32\n  ipv6: {ipv6}\n  private-key: {private_key}\n  public-key: {public_key}\n  udp: true\n  mtu: 1280\n  remote-dns-resolve: true\n  dns: [ 1.1.1.1, 1.0.0.1 ]\n\n"
                 else:
-                    new_line = f"- name: {warp_name}\n  type: wireguard\n  server: {ip}\n  port: {port}\n  ip: 172.16.0.2\n  private-key: {private_key}\n  public-key: {public_key}\n  udp: true\n  mtu: 1280\n  remote-dns-resolve: true\n  dns: [ 1.1.1.1, 1.0.0.1 ]\n\n"
+                    new_line = f"- name: {warp_name}\n  type: wireguard\n  server: {ip}\n  port: {port}\n  ip: 172.16.0.2/32\n  private-key: {private_key}\n  public-key: {public_key}\n  udp: true\n  mtu: 1280\n  remote-dns-resolve: true\n  dns: [ 1.1.1.1, 1.0.0.1 ]\n\n"
                 
                 output_file.write(new_line)
 
