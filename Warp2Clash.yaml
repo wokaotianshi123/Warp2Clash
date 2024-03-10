@@ -80,8 +80,8 @@ dns:
 proxies:
 - name: Warp01
   type: wireguard
-  server: 188.114.99.253
-  port: 8886
+  server: 188.114.99.87
+  port: 942
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -92,8 +92,8 @@ proxies:
 
 - name: Warp02
   type: wireguard
-  server: 188.114.99.59
-  port: 1074
+  server: 162.159.192.178
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -104,8 +104,8 @@ proxies:
 
 - name: Warp03
   type: wireguard
-  server: 162.159.192.203
-  port: 8854
+  server: 188.114.99.64
+  port: 7156
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -116,8 +116,8 @@ proxies:
 
 - name: Warp04
   type: wireguard
-  server: 162.159.192.162
-  port: 8854
+  server: 162.159.192.182
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -128,8 +128,8 @@ proxies:
 
 - name: Warp05
   type: wireguard
-  server: 188.114.99.247
-  port: 934
+  server: 162.159.192.185
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -140,8 +140,8 @@ proxies:
 
 - name: Warp06
   type: wireguard
-  server: 162.159.192.128
-  port: 8854
+  server: 188.114.99.55
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -152,8 +152,8 @@ proxies:
 
 - name: Warp07
   type: wireguard
-  server: 162.159.192.227
-  port: 8854
+  server: 162.159.192.169
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -164,8 +164,8 @@ proxies:
 
 - name: Warp08
   type: wireguard
-  server: 162.159.192.185
-  port: 934
+  server: 162.159.192.207
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -176,8 +176,8 @@ proxies:
 
 - name: Warp09
   type: wireguard
-  server: 162.159.192.108
-  port: 8854
+  server: 162.159.192.192
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -188,8 +188,8 @@ proxies:
 
 - name: Warp10
   type: wireguard
-  server: 162.159.192.162
-  port: 934
+  server: 162.159.192.247
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -200,8 +200,8 @@ proxies:
 
 - name: Warp11
   type: wireguard
-  server: 162.159.192.203
-  port: 934
+  server: 162.159.192.204
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -212,8 +212,8 @@ proxies:
 
 - name: Warp12
   type: wireguard
-  server: 188.114.99.85
-  port: 1074
+  server: 162.159.192.191
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -224,8 +224,8 @@ proxies:
 
 - name: Warp13
   type: wireguard
-  server: 162.159.195.205
-  port: 8854
+  server: 162.159.192.140
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -236,8 +236,8 @@ proxies:
 
 - name: Warp14
   type: wireguard
-  server: 162.159.195.136
-  port: 8854
+  server: 162.159.192.211
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -248,8 +248,8 @@ proxies:
 
 - name: Warp15
   type: wireguard
-  server: 162.159.195.103
-  port: 934
+  server: 162.159.195.14
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -260,8 +260,8 @@ proxies:
 
 - name: Warp16
   type: wireguard
-  server: 162.159.195.133
-  port: 934
+  server: 188.114.99.64
+  port: 942
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -272,8 +272,8 @@ proxies:
 
 - name: Warp17
   type: wireguard
-  server: 162.159.195.222
-  port: 934
+  server: 162.159.192.51
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -284,8 +284,8 @@ proxies:
 
 - name: Warp18
   type: wireguard
-  server: 162.159.195.207
-  port: 8854
+  server: 162.159.192.245
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -296,8 +296,8 @@ proxies:
 
 - name: Warp19
   type: wireguard
-  server: 162.159.195.83
-  port: 8854
+  server: 162.159.192.245
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -308,8 +308,8 @@ proxies:
 
 - name: Warp20
   type: wireguard
-  server: 162.159.192.38
-  port: 934
+  server: 188.114.96.209
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -320,8 +320,8 @@ proxies:
 
 - name: Warp21
   type: wireguard
-  server: 162.159.192.81
-  port: 8854
+  server: 162.159.192.35
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -332,8 +332,8 @@ proxies:
 
 - name: Warp22
   type: wireguard
-  server: 188.114.98.31
-  port: 8854
+  server: 162.159.192.35
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -344,8 +344,8 @@ proxies:
 
 - name: Warp23
   type: wireguard
-  server: 162.159.195.0
-  port: 8854
+  server: 188.114.96.40
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -356,8 +356,8 @@ proxies:
 
 - name: Warp24
   type: wireguard
-  server: 162.159.192.53
-  port: 934
+  server: 188.114.96.203
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -368,8 +368,8 @@ proxies:
 
 - name: Warp25
   type: wireguard
-  server: 162.159.195.59
-  port: 8854
+  server: 162.159.195.54
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -380,8 +380,8 @@ proxies:
 
 - name: Warp26
   type: wireguard
-  server: 162.159.195.231
-  port: 934
+  server: 162.159.195.219
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -392,8 +392,8 @@ proxies:
 
 - name: Warp27
   type: wireguard
-  server: 162.159.192.89
-  port: 8854
+  server: 162.159.195.16
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -404,8 +404,8 @@ proxies:
 
 - name: Warp28
   type: wireguard
-  server: 162.159.195.206
-  port: 934
+  server: 188.114.96.209
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -416,8 +416,8 @@ proxies:
 
 - name: Warp29
   type: wireguard
-  server: 188.114.99.47
-  port: 8886
+  server: 162.159.195.122
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -428,8 +428,8 @@ proxies:
 
 - name: Warp30
   type: wireguard
-  server: 188.114.99.85
-  port: 8886
+  server: 188.114.99.87
+  port: 7156
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -440,8 +440,8 @@ proxies:
 
 - name: Warp31
   type: wireguard
-  server: 162.159.195.228
-  port: 8854
+  server: 162.159.195.117
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -452,8 +452,8 @@ proxies:
 
 - name: Warp32
   type: wireguard
-  server: 162.159.195.100
-  port: 934
+  server: 188.114.97.1
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -464,8 +464,8 @@ proxies:
 
 - name: Warp33
   type: wireguard
-  server: 162.159.195.19
-  port: 8854
+  server: 162.159.195.16
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -476,8 +476,8 @@ proxies:
 
 - name: Warp34
   type: wireguard
-  server: 188.114.97.128
-  port: 8854
+  server: 188.114.96.85
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -488,8 +488,8 @@ proxies:
 
 - name: Warp35
   type: wireguard
-  server: 188.114.99.61
-  port: 1074
+  server: 162.159.192.43
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -500,8 +500,8 @@ proxies:
 
 - name: Warp36
   type: wireguard
-  server: 162.159.192.71
-  port: 934
+  server: 188.114.96.59
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -512,8 +512,8 @@ proxies:
 
 - name: Warp37
   type: wireguard
-  server: 162.159.192.18
-  port: 934
+  server: 188.114.99.81
+  port: 7156
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -524,8 +524,8 @@ proxies:
 
 - name: Warp38
   type: wireguard
-  server: 162.159.195.248
-  port: 8854
+  server: 162.159.195.38
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -536,8 +536,8 @@ proxies:
 
 - name: Warp39
   type: wireguard
-  server: 188.114.96.71
-  port: 934
+  server: 162.159.195.30
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -548,8 +548,8 @@ proxies:
 
 - name: Warp40
   type: wireguard
-  server: 162.159.192.79
-  port: 8854
+  server: 188.114.97.226
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -560,8 +560,8 @@ proxies:
 
 - name: Warp41
   type: wireguard
-  server: 188.114.99.59
-  port: 8886
+  server: 162.159.192.247
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -572,8 +572,8 @@ proxies:
 
 - name: Warp42
   type: wireguard
-  server: 188.114.98.214
-  port: 8854
+  server: 188.114.97.54
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -584,8 +584,8 @@ proxies:
 
 - name: Warp43
   type: wireguard
-  server: 188.114.96.98
-  port: 934
+  server: 162.159.192.219
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -596,8 +596,8 @@ proxies:
 
 - name: Warp44
   type: wireguard
-  server: 188.114.98.58
-  port: 8854
+  server: 188.114.97.16
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -608,8 +608,8 @@ proxies:
 
 - name: Warp45
   type: wireguard
-  server: 188.114.99.133
-  port: 8854
+  server: 162.159.195.38
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -620,8 +620,8 @@ proxies:
 
 - name: Warp46
   type: wireguard
-  server: 188.114.98.116
-  port: 934
+  server: 162.159.195.30
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -632,8 +632,8 @@ proxies:
 
 - name: Warp47
   type: wireguard
-  server: 188.114.99.204
-  port: 8854
+  server: 188.114.99.91
+  port: 7156
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -644,8 +644,8 @@ proxies:
 
 - name: Warp48
   type: wireguard
-  server: 188.114.99.102
-  port: 934
+  server: 188.114.97.1
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -656,8 +656,8 @@ proxies:
 
 - name: Warp49
   type: wireguard
-  server: 162.159.195.109
-  port: 934
+  server: 188.114.99.55
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -668,8 +668,8 @@ proxies:
 
 - name: Warp50
   type: wireguard
-  server: 162.159.192.120
-  port: 934
+  server: 188.114.99.137
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -680,8 +680,8 @@ proxies:
 
 - name: Warp51
   type: wireguard
-  server: 188.114.98.96
-  port: 8854
+  server: 162.159.192.207
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -692,8 +692,8 @@ proxies:
 
 - name: Warp52
   type: wireguard
-  server: 188.114.99.245
-  port: 8854
+  server: 162.159.192.178
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -704,8 +704,8 @@ proxies:
 
 - name: Warp53
   type: wireguard
-  server: 188.114.98.70
-  port: 934
+  server: 188.114.99.119
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -716,8 +716,8 @@ proxies:
 
 - name: Warp54
   type: wireguard
-  server: 188.114.99.61
-  port: 8886
+  server: 188.114.98.85
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -728,8 +728,8 @@ proxies:
 
 - name: Warp55
   type: wireguard
-  server: 162.159.192.12
-  port: 8854
+  server: 162.159.195.36
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -740,8 +740,8 @@ proxies:
 
 - name: Warp56
   type: wireguard
-  server: 162.159.195.52
-  port: 8854
+  server: 162.159.195.8
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -752,8 +752,8 @@ proxies:
 
 - name: Warp57
   type: wireguard
-  server: 162.159.192.79
-  port: 934
+  server: 188.114.99.95
+  port: 7156
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -764,8 +764,8 @@ proxies:
 
 - name: Warp58
   type: wireguard
-  server: 162.159.192.18
-  port: 8854
+  server: 188.114.97.161
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -776,8 +776,8 @@ proxies:
 
 - name: Warp59
   type: wireguard
-  server: 188.114.99.0
-  port: 8854
+  server: 188.114.99.95
+  port: 942
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -788,8 +788,8 @@ proxies:
 
 - name: Warp60
   type: wireguard
-  server: 162.159.192.59
-  port: 8854
+  server: 188.114.97.249
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -800,8 +800,8 @@ proxies:
 
 - name: Warp61
   type: wireguard
-  server: 188.114.96.59
-  port: 934
+  server: 188.114.96.201
+  port: 8319
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -812,8 +812,8 @@ proxies:
 
 - name: Warp62
   type: wireguard
-  server: 188.114.98.196
-  port: 934
+  server: 188.114.99.91
+  port: 942
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -824,8 +824,8 @@ proxies:
 
 - name: Warp63
   type: wireguard
-  server: 162.159.192.130
-  port: 934
+  server: 188.114.99.182
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
@@ -836,8 +836,8 @@ proxies:
 
 - name: Warp64
   type: wireguard
-  server: 188.114.99.127
-  port: 8854
+  server: 188.114.97.114
+  port: 500
   ip: 172.16.0.2/32
   private-key: iGpo/8+r44JBwD2XndRoUanyf+r0PNdIcEX0Few/jFk=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
