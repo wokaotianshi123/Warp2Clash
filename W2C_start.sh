@@ -1,6 +1,6 @@
 #!/bin/bash
 export LANG=zh_CN.UTF-8
-proxygithub="https://mirror.ghproxy.com/" #反代github加速地址，如果不需要可以将引号内容删除，如需修改请确保/结尾 例如"https://ghproxy.com/"
+proxygithub="https://gitjs.wokaotianshi123.cloudns.org/" #反代github加速地址，如果不需要可以将引号内容删除，如需修改请确保/结尾 例如"https://ghproxy.com/"
 WarpNumberNodes=64 #预计需要节点数量
 ###############################################################以下脚本内容，勿动#######################################################################
 
@@ -232,7 +232,7 @@ ulimit -n 102400
 # 检查文件是否存在
 if [ ! -e "warp" ]; then
   # 如果文件不存在，使用wget下载它
-  wget "${proxygithub}https://raw.githubusercontent.com/cmliu/Warp2Clash/main/warp/warp-linux-$(archAffix)" -O "warp"
+  wget "${proxygithub}https://raw.githubusercontent.com/wokaotianshi123/Warp2Clash/main/warp/warp-linux-$(archAffix)" -O "warp"
   echo "warp 文件已下载。"
 fi
 
