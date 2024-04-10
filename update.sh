@@ -8,6 +8,6 @@ else
   echo "无文件名"
   exit 1
 fi
-BASE64_TEXT=$(head -n 20000 $FILENAME | base64)
+BASE64_TEXT=$(head -n 4610 $FILENAME | base64)
 curl -k "https://$DOMAIN/$FILENAME?token=$TOKEN&b64=$BASE64_TEXT"
 echo "更新数据完成"
