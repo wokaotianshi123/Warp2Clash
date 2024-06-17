@@ -21,7 +21,7 @@ def process_csv(file_path, ipv6):
         next(reader)  # 跳过标题行
 
         with open('Warp2Clash.yaml', 'w') as output_file:
-            output_file.write("proxies:\n")
+            output_file.write("\n")
             
             for row in reader:
                 # 检查行是否包含至少一个冒号，且以方括号开始
