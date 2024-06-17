@@ -43,7 +43,7 @@ def process_csv(file_path, ipv6):
                         new_line += f"  server: {ip}\n  port: {port}\n"
                         if ipv6:
                             new_line += f"  ipv6: {ipv6}\n"
-                        new_line += f"  ip: 172.16.0.2/32 2606:4700:110:82e9:54c1:9d99:8fb4:9606/128\n"
+                        new_line += f"  ip: 172.16.0.2/32\n"
                         new_line += f"  private-key: {private_key}\n  public-key: {public_key}\n"
                         new_line += "  udp: true\n  mtu: 1280\n  remote-dns-resolve: true\n  dns: [ 1.1.1.1, 1.0.0.1 ]\n\n"
                         
