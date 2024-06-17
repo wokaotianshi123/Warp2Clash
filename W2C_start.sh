@@ -284,7 +284,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 
-
+proxies:"
 
 content_to_insert_end="proxy-groups:
   - name: 🚀 节点选择
