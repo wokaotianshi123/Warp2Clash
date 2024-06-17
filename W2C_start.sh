@@ -122,7 +122,7 @@ echo "PrivateKey: $private_key"
 echo "PublicKey: $public_key"
 echo "IPv6 Address: $ipv6"
 	
-endpoint6(){
+endpoint4(){
     # 生成优选 WARP IPv6 Endpoint IP 段列表
     n=0
     iplist=100
@@ -156,12 +156,11 @@ endpoint6(){
     # 将生成的 IP 段列表放到 ip.txt 里，待程序优选
     echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u > ip.txt
 
-    # 启动优选程序
-    endpointyx
 }
+
 rmxx "ip.txt"
 
-endpoint6
+endpoint4
 
 ulimit -n 102400
 
