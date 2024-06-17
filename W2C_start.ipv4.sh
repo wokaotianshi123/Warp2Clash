@@ -269,7 +269,7 @@ else
     python3 WireguardConfig.py "$private_key" "$public_key" "$ipv6"
 fi
 
-file="Warp2Clash.yaml"
+file="Warp2Clash.ipv4.yaml"
 content_to_insert_home="mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -4092,4 +4092,4 @@ rmxx "ip.txt"
 rmxx "result.csv"
 rmxx "wgcf-account.toml"
 rmxx "wgcf-profile.conf"
-cp "Warp2Clash.yaml" "/sdcard/"
+cp "Warp2Clash.ipv4.yaml" "/sdcard/"
