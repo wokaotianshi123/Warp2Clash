@@ -122,17 +122,46 @@ echo "PrivateKey: $private_key"
 echo "PublicKey: $public_key"
 echo "IPv6 Address: $ipv6"
 	
-endpoint6(){
-    # 生成优选 WARP IPv6 Endpoint IP 段列表
+endpoint4(){
     n=0
-    iplist=100
+    iplist=256
     while true; do
-        temp[$n]=$(echo [2606:4700:d0::$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2)))])
+        temp[$n]=$(echo 162.159.192.$(($RANDOM % 256)))
         n=$(($n + 1))
         if [ $n -ge $iplist ]; then
             break
         fi
-        temp[$n]=$(echo [2606:4700:d1::$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2)))])
+        temp[$n]=$(echo 162.159.193.$(($RANDOM % 256)))
+        n=$(($n + 1))
+        if [ $n -ge $iplist ]; then
+            break
+        fi
+        temp[$n]=$(echo 162.159.195.$(($RANDOM % 256)))
+        n=$(($n + 1))
+        if [ $n -ge $iplist ]; then
+            break
+        fi
+        temp[$n]=$(echo 162.159.204.$(($RANDOM % 256)))
+        n=$(($n + 1))
+        if [ $n -ge $iplist ]; then
+            break
+        fi
+        temp[$n]=$(echo 188.114.96.$(($RANDOM % 256)))
+        n=$(($n + 1))
+        if [ $n -ge $iplist ]; then
+            break
+        fi
+        temp[$n]=$(echo 188.114.97.$(($RANDOM % 256)))
+        n=$(($n + 1))
+        if [ $n -ge $iplist ]; then
+            break
+        fi
+        temp[$n]=$(echo 188.114.98.$(($RANDOM % 256)))
+        n=$(($n + 1))
+        if [ $n -ge $iplist ]; then
+            break
+        fi
+        temp[$n]=$(echo 188.114.99.$(($RANDOM % 256)))
         n=$(($n + 1))
         if [ $n -ge $iplist ]; then
             break
@@ -142,13 +171,49 @@ endpoint6(){
         if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
             break
         else
-            temp[$n]=$(echo [2606:4700:d0::$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2)))])
+            temp[$n]=$(echo 162.159.192.$(($RANDOM % 256)))
             n=$(($n + 1))
         fi
         if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
             break
         else
-            temp[$n]=$(echo [2606:4700:d1::$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2))):$(printf '%x\n' $(($RANDOM * 2 + $RANDOM % 2)))])
+            temp[$n]=$(echo 162.159.193.$(($RANDOM % 256)))
+            n=$(($n + 1))
+        fi
+        if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
+            break
+        else
+            temp[$n]=$(echo 162.159.195.$(($RANDOM % 256)))
+            n=$(($n + 1))
+        fi
+        if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
+            break
+        else
+            temp[$n]=$(echo 162.159.204.$(($RANDOM % 256)))
+            n=$(($n + 1))
+        fi
+        if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
+            break
+        else
+            temp[$n]=$(echo 188.114.96.$(($RANDOM % 256)))
+            n=$(($n + 1))
+        fi
+        if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
+            break
+        else
+            temp[$n]=$(echo 188.114.97.$(($RANDOM % 256)))
+            n=$(($n + 1))
+        fi
+        if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
+            break
+        else
+            temp[$n]=$(echo 188.114.98.$(($RANDOM % 256)))
+            n=$(($n + 1))
+        fi
+        if [ $(echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u | wc -l) -ge $iplist ]; then
+            break
+        else
+            temp[$n]=$(echo 188.114.99.$(($RANDOM % 256)))
             n=$(($n + 1))
         fi
     done
@@ -156,12 +221,11 @@ endpoint6(){
     # 将生成的 IP 段列表放到 ip.txt 里，待程序优选
     echo ${temp[@]} | sed -e 's/ /\n/g' | sort -u > ip.txt
 
-
 }
 
 rmxx "ip.txt"
 
-endpoint6
+endpoint4
 
 ulimit -n 102400
 
