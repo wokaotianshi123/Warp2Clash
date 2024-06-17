@@ -54,7 +54,7 @@ def process_csv(file_path, ipv6):
                 else:
                     print(f"跳过不匹配的行: {row[0]}")
 
-            print("结果已保存到 Warp2Clash.yaml 文件，已生成warp2clash.yaml到sd卡")
+            print("结果已保存到 Warp2Clash.yaml 文件，已生成warp2clash.yaml到手机根目录")
 
 file_path = 'result.csv'
 process_csv(file_path, ipv6)
