@@ -1,4 +1,4 @@
-# cmliu/Warp2Clash 来自大佬们的代码 目前仅仅适用于IPV6网络
+# cmliu/Warp2Clash 来自大佬们的代码 目前仅仅适用于IPV6网络，（手机是ipv6网络也可以）
 
 1.用手机安装termux运行，然后先安装python环境（首次运行需要，以后不需要），预计有600M，手机空间要足够。termux下载地址：https://github.com/termux/termux-app/releases
 ``` 
