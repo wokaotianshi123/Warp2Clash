@@ -253,8 +253,8 @@ else
 fi
 
 # 检查文件是否存在，更新wireguard
-if [  -e "WireguardConfig.py" ]; then
-  rm "WireguardConfig.py"
+if [  -e "WireguardConfig.ipv4.py" ]; then
+  rm "WireguardConfig.ipv4.py"
   wget "${proxygithub}https://raw.githubusercontent.com/wokaotianshi123/Warp2Clash/main/WireguardConfig.py" -O "WireguardConfig.py"
   echo "wireguard设置文件已更新。"
 else
